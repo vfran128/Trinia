@@ -3,9 +3,17 @@ body{
 background: linear-gradient(90deg, rgba(23,35,222,1) 15%, rgba(20,33,158,1) 20%, rgba(5,19,77,1) 25%, rgba(5,19,77,1) 75%, rgba(23,35,222,1) 83%);
 }
 
-.juan{
+.carru{
+color: red;
 
+}
+
+#series_desp{
   width: 150px;
+}
+#pelis-desp{
+  width: 150px;
+  float: right;
 }
 
 #text-center{
