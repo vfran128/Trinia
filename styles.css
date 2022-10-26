@@ -1,76 +1,27 @@
 body{
-  background-color: #581845;
+  background: rgb(23,35,222);
+background: linear-gradient(90deg, rgba(23,35,222,1) 15%, rgba(20,33,158,1) 20%, rgba(5,19,77,1) 25%, rgba(5,19,77,1) 75%, rgba(23,35,222,1) 83%);
 }
 
-.titulo{
-  color:  #b90202;
-  padding-left: 630px;
-  padding-top: 5px;
+.juan{
 
-}
-#boton1 {
-  background-color: #10ec2d;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-}
-#boton2 {
-    background: linear-gradient(90deg, rgba(42,79,8,1) 0%, rgba(12,119,26,1) 35%, rgba(23,79,30,1) 86%);
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-}
-#boton3 {
-  background-color: #046511;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-}
-#boton4 {
-  background-color: #4CAF50;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-}
-.botones{
-  padding-bottom: auto;
-  padding-top: 200px;
-  padding-left: 200px;
-  padding-right: 200px;
-  display: grid;
-  height: 20px;
-  grid-template-columns: auto auto;
-  row-gap: 15px;
-  column-gap: 15px;
-}
-.PJPA{
-  background-color: #3349ff;
-   border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
+  width: 150px;
 }
 
-.PJPAP{
-position: relative;
-bottom: -300px ;
+#text-center{
+text-align: center;
+}
+.titulos{
+  color: red;
+  font-family: Comic Sans MS;
+}
+
+#centered{
+top: 50%;
+left: 50%;
+border: 7px solid;
+border-color: gold;
+padding-bottom: auto;
+margin-left: 25%;
+margin-right: 25%;
 }
